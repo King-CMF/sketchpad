@@ -10,21 +10,23 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
+    border: 3px solid teal;
     margin: 10px;
 }
 
 .grid {
     width: 16px;
     height: 16px;
-    background-color: pink;
+    background-color: lightgray;
 }
 
 .grid:hover {
-    background-color: blue;
+    background-color: black;
 }
 
 .hov {
-    background-color: blue;
+    background-color: black;
+    transition: 1s;
     width: 16px;
     height: 16px;
 }
