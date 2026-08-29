@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: 265px;
+    width: 265px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    width: 16px;
+    height: 16px;
+    background-color: pink;
+    margin: 1px;
+}
+
+.grid:hover {
+    background-color: blue;
+}
+
+.hov {
+    background-color: blue;
+    width: 16px;
+    height: 16px;
+    margin: 1px;
+}
