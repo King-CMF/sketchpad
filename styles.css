@@ -1,23 +1,22 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
 .container {
-    height: 265px;
-    width: 265px;
     display: flex;
     flex-wrap: wrap;
+    margin: 10px;
 }
 
 .grid {
     width: 16px;
     height: 16px;
     background-color: pink;
-    margin: 1px;
 }
 
 .grid:hover {
@@ -28,5 +27,16 @@ body {
     background-color: blue;
     width: 16px;
     height: 16px;
-    margin: 1px;
+}
+
+.bt {
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+}
+
+button {
+    width: 75px;
+    height: 25px;
+    margin: 0px 3px;
 }
